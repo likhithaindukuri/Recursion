@@ -1,8 +1,11 @@
-class Solution{
+class Solution
+{
 public:
-    long long int factorial(int N){
-        if(N ==1 || N==0)return 1;
-        int ans = N;
-        return ans*factorial(N-1);
+    int factorial(int n)
+    {
+        if (n == 0 || n == 1)
+            return 1;
+
+        return n * factorial(n - 1);
     }
 };

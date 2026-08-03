@@ -7,9 +7,9 @@ public:
         {
             return n;
         }
-        return Fibo(n - 1) + fib(n - 2);
+        return Fibo(n - 1) + fibonacci(n - 2);
     }
-    int fib(int n)
+    int fibonacci(int n)
     {
         return Fibo(n);
     }
